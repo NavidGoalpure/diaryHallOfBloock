@@ -20,7 +20,8 @@ body {
   user-select: none;
   font-family: Vazir1,Raleway, sans-serif;
   position: fixed;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #root {
@@ -52,10 +53,10 @@ body {
   background-size: auto 85%;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 300px;
-  max-width: 300px;
-  height: 620px;
-  max-height: 650px;
+  width: 15rem;
+  max-width: 15rem;
+  height: 34rem;
+  max-height: 34rem;
   will-change: transform;
   border-radius: 10px;
   box-shadow: 0 12.5px 20px -10px rgba(50, 50, 73, 0.4),
@@ -63,9 +64,10 @@ body {
 }
 
 img {
-  height: 380px;
+  height:19rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: auto;
 }
 
 button[aria-label="previous"],
@@ -98,7 +100,7 @@ h5 {
 }
 h5:last-of-type {
   color: #685b5b;
-  font-size: 93%;
+  font-size: 80%;
 }
 
 .card > div {
